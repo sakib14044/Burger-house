@@ -242,11 +242,11 @@
 .contact-section h3{
 	font-family: 'Bebas Neue', cursive;
 	color: #3d2514;
-	text-transform: uppercase;
 }
 .contact-section h1{
 	font-family: 'Alfa Slab One', cursive;
 	color: #3d2514;
+	text-transform: uppercase;
 }
 .contact-section input{
 	margin-top: 17px;
