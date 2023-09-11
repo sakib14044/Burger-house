@@ -1,0 +1,321 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header-section{
+	background: #ffc148;
+	/* position: relative; */
+	}
+.apj{
+	margin-bottom: -30px;
+	text-align: right;
+}
+.apj p{
+	 margin-top: 10px;
+	 font-family: 'Montserrat', sans-serif;
+	 font-size: 14px;
+	 font-weight: 400;
+}
+.apj p img{
+	width: 30px;
+	margin-right: 8px;
+}
+.xy{
+	margin-top: -50px;
+	width: 200px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-left: 50px;
+	padding-right: 0;
+	margin-top: 14px;
+	font-size: 16px;
+	color: #3d2514;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 2px;
+	transition: 0.6s all;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: #fff;
+}
+
+.hh{	
+	/*width: 68%;*/	
+	border: 2px dashed #3d2514;	
+	display: inline-block;	
+	justify-content: center;	
+	align-items: center;
+	}
+.hh h4{
+	font-family: 'Bebas Neue', cursive;
+	margin: 0;
+	margin: 5px 7px 2px 7px;
+	color: #3d2514;
+	font-size: 22px;
+	text-align: center;
+}
+.banner h1{
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	font-size: 106px;
+	font-weight: 500;
+	color: #3d2514;
+	text-shadow: 2px 4px #efe8e8;
+}
+.banner h2{
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 54px;
+	padding: 0;
+	color: #3d2514;
+	text-shadow: 1px 3px #efe8e8;
+}
+.banner-image{
+ 	position: relative;
+}
+
+.rate{
+	position: absolute;
+	top: 67%;
+	left: 27%;
+	transform: translate(-27%, -67%);
+	width: 105px;
+	height: 105px;
+	background: #bf2222;
+	display: flex;
+	justify-content: center;
+	border-radius: 50%;
+	align-items: center;
+}
+.rate-content{
+	width: 90px;
+	height: 90px;
+	border: 1px deshed white;
+	font-family: 'Bebas Neue', cursive;
+	border: 2px dashed white;
+	border-radius: 51%;
+	text-align: center;
+}
+.full{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 39px;
+	color: #ffffff;
+}
+.full span{
+	font-size: 20px;
+}
+.only{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 23px;
+	color: #ffffff;
+	margin-block-start: -30px;
+	letter-spacing: 6px;
+}
+.popular-section{
+
+}
+.popular-one{
+	position: relative;
+}
+.popular-image{
+
+}
+.popular-image img{
+
+}
+.popular-content{	
+	position: absolute;	
+	top: 3%;	
+	left: 3%;
+	transform: translate(3%, 3%);
+}
+.popular-content h4{
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+}
+.popular-content h1{
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+	margin-top: -14px;
+}
+.choose-section{
+
+}
+.always{
+	width: 24%;
+	background: #ffc045;
+	margin: auto;
+}
+.always h3{
+	padding-top: 4px;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+}
+.choose-section h1{
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+}
+.choose-section h2{
+	color: #3d2514;
+	font-family: 'Bebas Neue', cursive;
+}
+.choose-section p{
+	color: #3d2514;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+.choose-burger{
+}
+.choose-burger img{
+	height: 150px;
+}
+.choose-section button{
+	font-family: 'Alfa Slab One', cursive;
+	background: #bf2222;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: inherit;
+	font-size: 12px;
+	padding: 10px 20px;
+	margin-top: 10px;
+	transition: 0.5s all;
+}
+.choose-section button:hover{
+	color: #ffc045;
+}
+.slider-section{
+
+}
+.slider-shadow{
+	box-shadow: 2px 25px 71px 9px #ebebeb;
+}
+.slider-section h1{
+	color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+.slider-section h3{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d3d3d;
+	margin-top: 20px;
+}
+.slider-section p{
+	color: #3d3d3d;
+	font-family: 'Montserrat', sans-serif;
+}
+.owl-theme .owl-dots .owl-dot span{
+	background: #869791;
+	height: 15px;
+	width: 15px;
+	display: flex;
+	transition: .6s all;
+}
+.owl-theme .owl-dots .owl-dot span:hover{
+	background: #fff;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+	background: orange;
+}
+.owl-carousel{
+	position: relative;
+}
+.owl-theme .owl-dots{
+	position: absolute;
+	top: 85%;
+	left: 2%;
+	transform: translate(-2%, -85%);
+}
+.contact-section{
+	background-image: url(../image/conntact-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 60vh;
+}
+.contact-section h3{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+}
+.contact-section h1{
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+	text-transform: uppercase;
+}
+.contact-section input{
+	margin-top: 17px;
+}
+.contact-section form{
+	margin-bottom: 50px;
+}
+.form-control:focus {
+	background: transparent;
+    outline: none;
+    box-shadow: none;
+    border-color: #ced4da;
+}
+.footer-section{
+
+}
+.bg{
+	background-image: url(../image/footer-image.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.footer-image{
+	margin-top: 50px;
+}
+.footer-image img{
+	filter: brightness(0) invert(1);
+}
+.footer-section h5{
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+	display: flex;
+}
+.footer-section p{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+.footer-section h5 i{
+	font-size: 20px;
+	/* margin-right: 16px; */
+	margin-bottom: 8px;
+}
+.footer-icon{
+	height: 30px;
+	width: 30Px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 16px;
+}
+.footer-section h6{
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+}
+.footer-section ul{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer-section ul li i{
+	border-radius: 30px;
+	background: #fff;
+	color: black;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s all;
+}
+.footer-section ul li i:hover{
+	background: orange;
+	color: #fff;
+}
