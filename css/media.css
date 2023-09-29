@@ -31,13 +31,16 @@
 	}
 }
 @media(min-width: 768px) and (max-width: 991px){
+	.banner h1{
+		font-size: 85px;
+	}
 	.owl-theme .owl-dots{
 		top: 95%;
 	   left: 50%;
 	   transform: translate(-50%, -85%);
 	}
 }
-@media(max-width: 767px){
+@media(max-width: 767.5px){
 	.banner-image {
 		margin-top: -80px;
 	}
@@ -53,7 +56,11 @@
 		background: transparent;
 	}
 }
-@media(max-width: 575px){
+@media(max-width: 575.5px){
+	.banner{
+		text-align: center;
+		margin-top: 20px;
+	}
 	.hh h4{
 		font-size: 16px;
 	}
